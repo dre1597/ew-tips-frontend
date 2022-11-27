@@ -1,0 +1,15 @@
+{
+  "name": "01-esmodules",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "npx http-server .",
+    "test": "node test/index.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "http-server": "^14.1.1"
+  }
+}
